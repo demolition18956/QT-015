@@ -5,6 +5,7 @@
 #include <QGraphicsScene>
 #include <QTimer>
 #include "projectile.h"
+#include "target.h"
 
 namespace Ui {
 class Dialog;
@@ -22,6 +23,7 @@ private:
     Ui::Dialog *ui;
     QGraphicsScene* scene;
     Projectile* p1;
+    Target* t1;
 };
 
 #endif // DIALOG_H

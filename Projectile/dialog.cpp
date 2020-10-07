@@ -20,6 +20,11 @@ Dialog::Dialog(QWidget *parent) :
     p1->setPos(-200,-150);
     scene->addItem(p1);
 
+    // Add target to scene
+    t1 = new Target;
+    t1->setPos(-200, 100);
+    scene->addItem(t1);
+
     // Create and configure timer Object
     QTimer* timer = new QTimer;
     connect(timer, SIGNAL(timeout()), scene, SLOT(advance()));

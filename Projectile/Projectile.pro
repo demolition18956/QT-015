@@ -27,11 +27,13 @@ CONFIG += c++11
 SOURCES += \
         main.cpp \
         dialog.cpp \
-        projectile.cpp
+        projectile.cpp \
+        target.cpp
 
 HEADERS += \
         dialog.h \
-        projectile.h
+        projectile.h \
+        target.h
 
 FORMS += \
         dialog.ui
